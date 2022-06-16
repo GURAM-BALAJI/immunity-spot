@@ -25,8 +25,7 @@
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
     <!-- Tweaks for older IEs-->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
-        media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 
 </head>
 <!-- body -->
@@ -86,61 +85,75 @@
                 </div>
             </div>
         </div>
- </div>
+    </div>
 
- <center>  <?php
- session_start();
-      if(isset($_SESSION['error'])){
-        echo "
+    <center> <?php
+                session_start();
+                if (isset($_SESSION['error'])) {
+                    echo "
           <div class='text-center' style='color:red;'>
-            <p>".$_SESSION['error']."</p> 
+            <p>" . $_SESSION['error'] . "</p> 
           </div>
         ";
-        unset($_SESSION['error']);
-      }
-        if(isset($_SESSION['success'])){
-        echo "
+                    unset($_SESSION['error']);
+                }
+                if (isset($_SESSION['success'])) {
+                    echo "
           <div class='text-center' style='color:green;'>
-            <p>".$_SESSION['success']."</p> 
+            <p>" . $_SESSION['success'] . "</p> 
           </div>
         ";
-        unset($_SESSION['success']);
-      }
-    ?></center>
+                    unset($_SESSION['success']);
+                }
+                ?></center>
 
     <div class="container">
         <div class="row">
             <div class=" col-md-6 ">
-                <b>Immunity Spot LLP,<br>
-                Plot No.62, Ward No.25, Veerana Gouda Colony Near Triangle Park, Infantry Road, BALLARI - 583104.
-                    <br>
-                    <br></b>
-                    <div class="address">
-                        <form action="send.php" method="POST">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <input class="contactus" placeholder="Name" type="text" name="name">
-                                </div>
-                                <div class="col-sm-12">
-                                    <input class="contactus" placeholder="Phone" type="text" name="phone">
-                                </div>
-                                <div class="col-sm-12">
-                                    <input class="contactus" placeholder="Email" type="text" name="email">
-                                </div>
-                                <div class="col-sm-12">
-                                    <textarea class="textarea" placeholder="Message" type="text" name="message"></textarea>
-                                </div>
-                                <div class="col-sm-12">
-                                    <button class="send">Send</button>
-                                </div>
+                <ul class="locarion_icon">
+                    <li><img src="icon/1.png" alt="icon" />Immunity Spot LLP,<br> Plot No.62, Ward No.25, Veerana Gouda Colony Near Triangle Park, Infantry Road, BALLARI - 583104.</li>
+                    <li><img src="icon/2.png" alt="icon" />Phone : +91 91082 27222 <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        +91 81971 26222<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 81970 67222</li>
+                    <li><img src="icon/3.png" alt="icon" />Email : support@immunityspot.com</li>
+
+                </ul>
+
+                <br></b>
+                <div class="address">
+
+                    <form action="send.php" method="POST">
+                        <h3>Get In Touch</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <input class="contactus" placeholder="Name" type="text" name="name">
                             </div>
-                        </form>
-                    </div>
+                            <div class="col-sm-12">
+                                <input class="contactus" placeholder="Phone" type="text" name="phone">
+                            </div>
+                            <div class="col-sm-12">
+                                <input class="contactus" placeholder="Email" type="text" name="email">
+                            </div>
+                            <div class="col-sm-12">
+                                <textarea class="textarea" placeholder="Message" type="text" name="message"></textarea>
+                            </div>
+                            <div class="col-sm-12">
+                                <button class="send">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
+
             <div class=" col-md-6 ">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15404.152579532907!2d76.914556!3d15.1562497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc87b417c0825232!2sImmunity%20Spot!5e0!3m2!1sen!2sin!4v1648480879642!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <center>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15404.152579532907!2d76.914556!3d15.1562497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc87b417c0825232!2sImmunity%20Spot!5e0!3m2!1sen!2sin!4v1648480879642!5m2!1sen!2sin" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </center>
             </div>
-           
+
         </div>
     </div>
     <!--  footer -->
@@ -163,24 +176,25 @@
     <script src="js/custom.js"></script>
     <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $(".fancybox").fancybox({
                 openEffect: "none",
                 closeEffect: "none"
             });
 
-            $(".zoom").hover(function () {
+            $(".zoom").hover(function() {
 
                 $(this).addClass('transition');
-            }, function () {
+            }, function() {
 
                 $(this).removeClass('transition');
             });
         });
     </script>
 </body>
-<?php 
-if(isset($_SESSION['lock']))
+<?php
+if (isset($_SESSION['lock']))
     unset($_SESSION['lock']);
 ?>
+
 </html>

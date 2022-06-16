@@ -91,7 +91,7 @@
      line-height: 24px;
 }
  a {
-     color: #222222;
+     color: #F6B096;
      text-decoration: none;
      outline: none !important;
 }
@@ -1756,7 +1756,9 @@
      padding-right: 10px;
 }
  ul.locarion_icon {
-     padding-bottom: 15px;
+    border-radius: 25px;
+    background-color: #573A43;
+     padding: 15px;
 }
  ul.locarion_icon li {
      padding-bottom: 15px;
