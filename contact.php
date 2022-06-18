@@ -123,7 +123,7 @@
                 </ul>
 
                 <br></b>
-                <div class="address">
+                <div class="address disabled_in_mobile_view">
 
                     <form action="send.php" method="POST">
                         <h3>Get In Touch</h3>

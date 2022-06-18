@@ -10,6 +10,9 @@
 }
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
  @media only screen and (min-width: 599px) and (max-width: 767px) {
+    .disabled_in_mobile_view{
+        display: none;
+    }
      .logo {
          text-align: center;
     }
@@ -79,6 +82,9 @@
 }
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
  @media only screen and (min-width: 280px) and (max-width: 599px) {
+    .disabled_in_mobile_view{
+        display: none;
+    }
      .cart-content-right {
          padding-bottom: 5px;
     }
@@ -123,6 +129,9 @@
  @media (min-width: 1200px) and (max-width: 1500px) {
 }
  @media (min-width: 992px) and (max-width: 1199px) {
+    .disabled_in_mobile_view{
+        display: none;
+    }
      .main-menu ul > li a {
          padding: 7px 20px 7px 20px;
          margin: 0px 0px;
@@ -160,6 +169,9 @@
     }
 }
  @media (min-width: 768px) and (max-width: 991px) {
+    .disabled_in_mobile_view{
+        display: none;
+    }
      .main-menu ul {
         margin-top: 8px;
     }
@@ -219,6 +231,9 @@
     }
 }
  @media (min-width: 576px) and (max-width: 767px) {
+    .disabled_in_mobile_view{
+        display: none;
+    }
      .menu-area-main li.active a {
          background: transparent;
          box-shadow: inherit;
@@ -262,7 +277,8 @@
     }
      .text-box .box h3 {
          font-size: 31px;
-         line-height: 35p padding: 12px 0px 
+         line-height: 35px; 
+         padding: 12px 0px;
     }
      .Lastestnews {
          padding: 60px 0;
@@ -292,6 +308,9 @@
 }
 }
  @media (max-width: 575px) {
+    .disabled_in_mobile_view{
+        display: none;
+    }
      .header {
          padding-bottom: 0px;
     }
