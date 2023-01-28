@@ -26,6 +26,7 @@
     <!-- Tweaks for older IEs-->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
 </head>
 <!-- body -->
@@ -58,7 +59,6 @@
                                     <ul class="menu-area-main">
                                         <li> <a href="index.html">Home</a> </li>
                                         <li> <a href="about.html">About Us</a> </li>
-                                        <li> <a href="sis_module.html">SIS Module</a> </li>
                                         <li> <a href="franchise_module.html">Franchise</a> </li>
                                         <li> <a href="helping_module.html">Helping</a> </li>
                                         <li> <a href="album.php"> Albums</a> </li>
@@ -110,16 +110,21 @@
     <div class="container">
         <div class="row">
             <div class=" col-md-6 ">
-                <ul class="locarion_icon">
-                    <li><img src="icon/1.png" alt="icon" />Immunity Spot LLP,<br> Plot No.62, Ward No.25, Veerana Gouda Colony Near Triangle Park, Infantry Road, BALLARI - 583104.</li>
-                    <li><img src="icon/2.png" alt="icon" />Phone : +91 91082 27222 <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        +91 81971 26222<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 81970 67222</li>
-                    <li><img src="icon/3.png" alt="icon" />Email : support@immunityspot.com</li>
-
+                <ul class="locarion_icon" >
+                <li style="color: black;"><span class="material-symbols-outlined" style="color:red">
+                                    location_on
+                                    </span> Immunity Spot LLP,<br> Plot No.62, Ward No.25, Veerana Gouda Colony Near Triangle Park, Infantry Road, BALLARI - 583104.</li>
+                                <li style="color: black;"> <span class="material-symbols-outlined" style="color:red">
+                                    call
+                                    </span> Phone :  +91 91082 27222 <br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    +91 81971 26222<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 81970 67222</li>
+                                <li style="color: black;"><span class="material-symbols-outlined" style="color:red">
+                                    mail
+                                    </span> Email : support@immunityspot.com</li>
                 </ul>
 
                 <br></b>
@@ -160,7 +165,7 @@
 
     <div class="copyright">
         <div class="container">
-            <p>© 2021 All Rights Reserved. <a href="">Immunity Spot LLP</a></p>
+            <p>© 2023 All Rights Reserved. <a href="">Immunity Spot LLP</a></p>
         </div>
     </div>
 

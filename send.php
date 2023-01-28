@@ -22,7 +22,7 @@ if (!isset($_SESSION['lock'])) {
             $mail->SMTPAuth = true;
             $mail->SMTPSecure = 'tls';
             $mail->Username = "support@immunityspot.com"; //enter you email address
-            $mail->Password = 'Anil@2022'; //enter you email password
+            $mail->Password = 'ISport@123'; //enter you email password
             $mail->Port = 465;
             $mail->SMTPOptions = array(
                 'ssl' => array(
